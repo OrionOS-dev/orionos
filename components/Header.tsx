@@ -34,7 +34,7 @@ export default function Header() {
               Docs
             </Link>
             <Link
-              href="https://github.com"
+              href="https://github.com/OrionOS-dev"
               target="_blank"
               className="text-foreground hover:text-secondary transition-colors font-medium"
             >
@@ -91,14 +91,15 @@ export default function Header() {
                 Partners
               </Link>
               <Link
-                href="#docs"
+                href="https://docs.orionos.dev"
+                target="_blank"
                 className="text-foreground hover:text-secondary transition-colors font-medium"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Docs
               </Link>
               <Link
-                href="https://github.com"
+                href="https://github.com/OrionOS-dev"
                 target="_blank"
                 className="text-foreground hover:text-secondary transition-colors font-medium"
                 onClick={() => setMobileMenuOpen(false)}
@@ -106,7 +107,7 @@ export default function Header() {
                 GitHub
               </Link>
               <Link
-                href="#contact"
+                href="mailto:contact@orionos.dev"
                 className="text-foreground hover:text-secondary transition-colors font-medium"
                 onClick={() => setMobileMenuOpen(false)}
               >
