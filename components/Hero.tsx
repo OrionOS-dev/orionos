@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import Button from './ui/Button';
 
 export default function Hero() {
@@ -37,15 +38,19 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="primary" size="lg">
-                Get Started
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </Button>
-              <Button variant="outline" size="lg">
-                Join Community
-              </Button>
+              <Link href="https://docs.orionos.dev" target="_blank">
+                <Button variant="primary" size="lg">
+                  Get Started
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </Button>
+              </Link>
+              <Link href="https://x.com/i/communities/1996978996631032001" target="_blank">
+                <Button variant="outline" size="lg">
+                  Join Community
+                </Button>
+              </Link>
             </div>
           </div>
 
