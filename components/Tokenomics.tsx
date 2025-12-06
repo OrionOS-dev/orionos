@@ -39,7 +39,7 @@ export default function Tokenomics() {
           <Button
             variant="ghost"
             size="lg"
-            onClick={() => window.open('https://pump.fun', '_blank')}
+            onClick={() => window.open('https://pump.fun/coin/9gVCk7dVM4YBxceGoPJrbjK6VdTT1fG6yzRg7c8Npump', '_blank')}
           >
             Buy $ORION on Pump.fun
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
